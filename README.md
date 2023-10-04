@@ -1,8 +1,10 @@
-# Análise exploratória: série temporal dos dados de postagem dos Correios para o estado do RJ
+# Análise exploratória: série temporal dos dados de postagem dos Correios para uma unidade do estado do RJ
 
 **Projeto - Estatística I**
+
 Instrutor: Felipe Yoshimoto
-**Equipe: Gabriel Miranda, Marcus Thadeu, Ruann Campos e Thiago Caveglion**
+
+**Equipe: [Gabriel Miranda](https://www.linkedin.com/in/grmiranda/), [Marcus Thadeu](https://www.linkedin.com/in/marcus-thadeu/), [Ruann Campos](https://www.linkedin.com/in/ruann-campos/) e [Thiago Caveglion](https://www.linkedin.com/in/thiago-caveglion/)**
 
 # Objetivo geral
 Analisar, de forma exploratória, os dados referente à série temporal de postagens de uma agência dos Correios do estado do Rio de Janeiro (2023-01 a 2023-09).
@@ -32,3 +34,5 @@ No desenvolvimento de nossa análise, buscamos responder às seguintes perguntas
 # Execução
 Para executar o notebook localmente, certifique-se de, logo no início do arquivo `analise-exploratoria-correios-rj.ipynb`, alterar a seguinte linha de código: `df = pd.read_parquet("caminho")`.
 * O argumento da função `read_parquet()` deve conter o caminho para o arquivo referente ao nosso dataset (`operations_base.parquet`).
+
+###### Tags: `python` `data-science` `correios` `logistica` `ciencia-de-dados` `analise-exploratoria`
