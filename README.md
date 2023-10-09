@@ -1,4 +1,4 @@
-# [Análise exploratória: série temporal dos dados de postagem dos Correios para uma unidade do estado do RJ](https://github.com/grmirand4/sc2023-analise-exploratoria-correios-rj)
+# [Análise exploratória: série temporal dos dados de postagem de uma empresa de logística do estado do RJ](https://github.com/grmirand4/sc2023-analise-exploratoria-logistica-rj)
 
 **Projeto - Estatística I**
 
@@ -7,9 +7,9 @@ Instrutor: Felipe Yoshimoto
 **Equipe: [Gabriel Miranda](https://www.linkedin.com/in/grmiranda/), [Marcus Thadeu](https://www.linkedin.com/in/marcus-thadeu/), [Ruann Campos](https://www.linkedin.com/in/ruann-campos/) e [Thiago Caveglion](https://www.linkedin.com/in/thiago-caveglion/)**
 
 # Objetivo geral
-Analisar, de forma exploratória, os dados referente à série temporal de postagens de uma agência dos Correios do estado do Rio de Janeiro (2023-01 a 2023-09).
+Analisar, de forma exploratória, os dados referente à série temporal de postagens de uma empresa de logística do estado do Rio de Janeiro (2023-01 a 2023-09).
 
-# Objetivos específicos
+# Perguntas de negócio
 No desenvolvimento de nossa análise, buscamos responder às seguintes perguntas:
 * Qual a distribuição dos valores de postagem por estado?
 * Qual o ticket médio por cliente?
@@ -32,7 +32,7 @@ No desenvolvimento de nossa análise, buscamos responder às seguintes perguntas
 * Qual a distribuição da quantidade de envios por região?
 
 # Execução
-Para executar o notebook localmente, certifique-se de, logo no início do arquivo `analise-exploratoria-correios-rj.ipynb`, alterar a seguinte linha de código: `df = pd.read_parquet("caminho")`.
+Para executar o notebook localmente, certifique-se de, logo no início do arquivo `analise-exploratoria-logistica-rj.ipynb`, alterar a seguinte linha de código: `df = pd.read_parquet("caminho")`.
 * O argumento da função `read_parquet()` deve conter o caminho para o arquivo referente ao nosso dataset (`operations_base.parquet`).
 
-###### Tags: `python` `data-science` `correios` `logistica` `ciencia-de-dados` `analise-exploratoria`
+###### Tags: `python` `data-science` `logistica` `ciencia-de-dados` `analise-exploratoria`
