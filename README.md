@@ -9,6 +9,19 @@ Instrutor: Felipe Yoshimoto
 ## 🎯 Objetivo geral
 Analisar, de forma exploratória, os dados referente à série temporal de postagens de uma empresa de logística do estado do Rio de Janeiro (2023-01 a 2023-09).
 
+## 📊 Sobre o data set
+
+O data set `operations_base.parquet` contém informações de pacotes que foram enviados por uma agência de logística localizada na cidade do Rio de Janeiro (RJ). Em nosso recorte, os envios ocorreram entre os meses de Janeiro e Setembro de 2023. As colunas do arquivo incluem:
+* `Data`: data de postagem do pacote;
+* `Objeto`: código de rastreamento;
+* `CEP`: CEP do destino;
+* `Serviço`: tipo de serviço (expresso ou econômico);
+* `Valor`: valor da postagem (em reais);
+* `Cliente`: nome do cliente;
+* `Postagem`: tipo de postagem;
+* `Destino`: cidade de destino;
+* `UF`: estado de destino.
+
 ## 📝 Perguntas de negócio
 No desenvolvimento de nossa análise, buscamos responder às seguintes perguntas:
 * Qual a distribuição dos valores de postagem por estado?
@@ -45,6 +58,16 @@ No desenvolvimento de nossa análise, buscamos responder às seguintes perguntas
 
 ## 👨‍💻 Execução
 Para executar o notebook localmente, certifique-se de, logo no início do arquivo `analise-exploratoria-logistica-rj.ipynb`, alterar a seguinte linha de código: `df = pd.read_parquet("caminho")`.
-* O argumento da função `read_parquet()` deve conter o caminho para o arquivo referente ao nosso dataset (`operations_base.parquet`).
+* O argumento da função `read_parquet()` deve conter o caminho para o arquivo referente ao nosso data set (`operations_base.parquet`).
+
+## 💻 Principais linguagens
+- Python
+  - Pandas
+  - Numpy
+  - OS
+  - Locale
+  - Plotly
+  - Matplotlib
+  - Scipy
 
 ###### Tags: `python` `data-science` `logistica` `ciencia-de-dados` `analise-exploratoria`
