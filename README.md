@@ -7,7 +7,7 @@ Instrutor: Felipe Yoshimoto
 **Equipe: [Gabriel Miranda](https://www.linkedin.com/in/grmiranda/), [Marcus Thadeu](https://www.linkedin.com/in/marcus-thadeu/), [Ruann Campos](https://www.linkedin.com/in/ruann-campos/) e [Thiago Caveglion](https://www.linkedin.com/in/thiago-caveglion/)**
 
 ## 🎯 Objetivo geral
-Analisar, de forma exploratória, os dados referente à série temporal de postagens de uma empresa de logística do estado do Rio de Janeiro (2023-01 a 2023-09).
+Analisar, de forma exploratória, os dados referentes à série temporal de postagens de uma empresa de logística do estado do Rio de Janeiro (2023-01 a 2023-09).
 
 ## 📊 Sobre o data set
 
