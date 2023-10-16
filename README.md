@@ -56,10 +56,6 @@ No desenvolvimento de nossa análise, buscamos responder às seguintes perguntas
 * O valor médio de envio para a região norte é superior à todas as outras regiões.
 * A região sul é a que menos recebe pacotes dessa agência de logística.
 
-## 👨‍💻 Execução
-Para executar o notebook localmente, certifique-se de, logo no início do arquivo `analise-exploratoria-logistica-rj.ipynb`, alterar a seguinte linha de código: `df = pd.read_parquet("caminho")`.
-* O argumento da função `read_parquet()` deve conter o caminho para o arquivo referente ao nosso data set (`operations_base.parquet`).
-
 ## 💻 Principais linguagens
 - Python
   - Pandas
@@ -69,5 +65,9 @@ Para executar o notebook localmente, certifique-se de, logo no início do arquiv
   - Plotly
   - Matplotlib
   - Scipy
+
+## 👨‍💻 Execução
+Para executar o notebook localmente, certifique-se de, logo no início do arquivo `analise-exploratoria-logistica-rj.ipynb`, alterar a seguinte linha de código: `df = pd.read_parquet("caminho")`.
+* O argumento da função `read_parquet()` deve conter o caminho para o arquivo referente ao nosso data set (`operations_base.parquet`).
 
 ###### Tags: `python` `data-science` `logistica` `ciencia-de-dados` `analise-exploratoria`
