@@ -6,10 +6,10 @@ Instrutor: Felipe Yoshimoto
 
 **Equipe: [Gabriel Miranda](https://www.linkedin.com/in/grmiranda/), [Marcus Thadeu](https://www.linkedin.com/in/marcus-thadeu/), [Ruann Campos](https://www.linkedin.com/in/ruann-campos/) e [Thiago Caveglion](https://www.linkedin.com/in/thiago-caveglion/)**
 
-# Objetivo geral
+## 🎯 Objetivo geral
 Analisar, de forma exploratória, os dados referente à série temporal de postagens de uma empresa de logística do estado do Rio de Janeiro (2023-01 a 2023-09).
 
-# Perguntas de negócio
+## 📝 Perguntas de negócio
 No desenvolvimento de nossa análise, buscamos responder às seguintes perguntas:
 * Qual a distribuição dos valores de postagem por estado?
 * Qual o ticket médio por cliente?
@@ -31,7 +31,19 @@ No desenvolvimento de nossa análise, buscamos responder às seguintes perguntas
 * O valor médio de envio da região Centro-Oeste é igual ao valor médio de envio da região Sul?
 * Qual a distribuição da quantidade de envios por região?
 
-# Execução
+## 💡 Principais conclusões
+* Rondônia é o estado com o maior valor de ticket médio (R$ 77,16).
+* Enquanto o cliente Mesbla possui o menor valor de ticket médio (R$ 11,76), o cliente Arapuã está no extremo oposto (R$ 42,98).
+* O serviço expresso possui um ticket médio de R$ 21,56 enquanto o do serviço econômico está definido em R$ 25,42.
+* Observa-se um pico de envio de postagens nos meses de Julho e Agosto.
+* Considerando os dias do mês, o pico de postagem ocorre no dia 13.
+* A quantidade total de produtos despachados é maior na segunda-feira.
+* A maior parte dos produtos despachados custa menos de 20 reais.
+* A maior parte dos produtos despachados dessa agência de logística vai para o próprio estado do RJ (49% das postagens totais). Logo após, temos os estados da região sudeste (MG, ES e SP, respectivamente).
+* O valor médio de envio para a região norte é superior à todas as outras regiões.
+* A região sul é a que menos recebe pacotes dessa agência de logística.
+
+## 👨‍💻 Execução
 Para executar o notebook localmente, certifique-se de, logo no início do arquivo `analise-exploratoria-logistica-rj.ipynb`, alterar a seguinte linha de código: `df = pd.read_parquet("caminho")`.
 * O argumento da função `read_parquet()` deve conter o caminho para o arquivo referente ao nosso dataset (`operations_base.parquet`).
 
