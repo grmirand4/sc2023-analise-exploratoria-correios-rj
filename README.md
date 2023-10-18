@@ -2,7 +2,7 @@
 
 **Projeto - Estatística I**
 
-Instrutor: Felipe Yoshimoto
+Instrutor: [Felipe Yoshimoto](https://www.linkedin.com/in/felipe-yoshimoto-252a04204/)
 
 **Equipe: [Gabriel Miranda](https://www.linkedin.com/in/grmiranda/), [Marcus Thadeu](https://www.linkedin.com/in/marcus-thadeu/), [Ruann Campos](https://www.linkedin.com/in/ruann-campos/) e [Thiago Caveglion](https://www.linkedin.com/in/thiago-caveglion/)**
 
